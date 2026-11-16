@@ -10,7 +10,7 @@ services:
       DB_NAME: prestashop
       DB_USER: ps_user
       DB_PASSWD: ps_pass
-      PS_DOMAIN: localhost:8080
+      PS_DOMAIN: auto
     volumes:
       - ps_data:/var/www/html
     depends_on:
